@@ -9,6 +9,9 @@ export type ScatterDataset = {
 };
 
 export type ScatterDataSchema = {
-  labels: string[];
+  xTitle: string;
+  yTitle: string;
+  xLabels: string[];
+  yLabels: string[];
   datasets: ScatterDataset[];
 };

@@ -1,9 +1,11 @@
 export type DoubleBarDataset = {
   label: string;
-  data;
+  data: number[];
 };
 
 export type DoubleBarDataSchema = {
+  xTitle: string;
+  yTitle: string;
   labels: string[];
   datasets: DoubleBarDataset[];
 };

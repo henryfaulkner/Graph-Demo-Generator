@@ -34,7 +34,7 @@ const invList = [
   "inv512",
 ];
 
-for (let i = 0; i < 50; i += 1) {
+for (let i = 0; i < 10; i += 1) {
   const point: Point = {
     x: invList[faker.number.int({ min: 0, max: invList.length - 1 })],
     y: flagList[faker.number.int({ min: 0, max: flagList.length - 1 })],
@@ -46,6 +46,12 @@ const dataset: ScatterDataset = {
   label,
   data,
 };
-const scatterData: ScatterDataSchema = { labels: invList, datasets: [dataset] };
+const scatterData: ScatterDataSchema = {
+  xTitle: "Invoices",
+  yTitle: "Flags",
+  xLabels: invList,
+  yLabels: flagList,
+  datasets: [dataset],
+};
 
 pushJsonToFile(`./data/${fileName}.json`, scatterData);

@@ -1,12 +1,14 @@
 {
   "author": "Henry Faulkner",
-  "name": "Graph Demo Generator",
+  "name": "graph-demo-generator",
   "description": ".",
   "version": "0.0.1",
   "main": "build",
   "scripts": {
     "start": "npx ts-node",
     "flagged-invoice-count": "npx ts-node src/scripts/flagged-invoice-count",
+    "nowaccount-difference": "npx ts-node src/scripts/nowaccount-difference",
+    "credit-request-utilization": "npx ts-node src/scripts/credit-request-utilization",
     "build": "tsc --outDir build"
   },
   "dependencies": {
