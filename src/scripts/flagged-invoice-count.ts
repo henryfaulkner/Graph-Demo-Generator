@@ -10,10 +10,34 @@ const fileName = "flagged-invoice-count";
 const label = "Flagged Invoice Count";
 const data: Point[] = [];
 
+// Y-Axis
+const flagList = [
+  "Remit To Missing/Wrong",
+  "Customer Address Wrong/Missing",
+  "Customer Aging Hold",
+  "Invoice PDF does not match terms",
+  "Invoice PDF does not match submitted Invoice Date, Number and/or Amount",
+  "NeedCredit",
+];
+
+// X-Axis
+const invList = [
+  "inv1",
+  "inv2",
+  "inv4",
+  "inv8",
+  "inv16",
+  "inv32",
+  "inv64",
+  "inv128",
+  "inv256",
+  "inv512",
+];
+
 for (let i = 0; i < 50; i += 1) {
   const point: Point = {
-    x: faker.number.int({ min: 0, max: 350 }),
-    y: faker.number.int({ min: 0, max: 500 }),
+    x: invList[faker.number.int({ min: 0, max: invList.length - 1 })],
+    y: flagList[faker.number.int({ min: 0, max: flagList.length - 1 })],
   };
   data.push(point);
 }
@@ -22,6 +46,6 @@ const dataset: ScatterDataset = {
   label,
   data,
 };
-const scatterData: ScatterDataSchema = { datasets: [dataset] };
+const scatterData: ScatterDataSchema = { labels: invList, datasets: [dataset] };
 
 pushJsonToFile(`./data/${fileName}.json`, scatterData);

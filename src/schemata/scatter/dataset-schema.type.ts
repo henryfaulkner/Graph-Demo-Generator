@@ -1,6 +1,6 @@
 export type Point = {
-  x: number;
-  y: number;
+  x: number | string;
+  y: number | string;
 };
 
 export type ScatterDataset = {
@@ -9,5 +9,6 @@ export type ScatterDataset = {
 };
 
 export type ScatterDataSchema = {
+  labels: string[];
   datasets: ScatterDataset[];
 };

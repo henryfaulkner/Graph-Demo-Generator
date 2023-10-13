@@ -4,204 +4,204 @@
       "label": "Flagged Invoice Count",
       "data": [
         {
-          "x": 112,
-          "y": 15
+          "x": "inv32",
+          "y": "Invoice PDF does not match submitted Invoice Date, Number and/or Amount"
         },
         {
-          "x": 165,
-          "y": 25
+          "x": "inv128",
+          "y": "Invoice PDF does not match terms"
         },
         {
-          "x": 263,
-          "y": 196
+          "x": "inv2",
+          "y": "Invoice PDF does not match terms"
         },
         {
-          "x": 309,
-          "y": 70
+          "x": "inv8",
+          "y": "Invoice PDF does not match submitted Invoice Date, Number and/or Amount"
         },
         {
-          "x": 144,
-          "y": 385
+          "x": "inv256",
+          "y": "Customer Address Wrong/Missing"
         },
         {
-          "x": 263,
-          "y": 371
+          "x": "inv32",
+          "y": "Customer Address Wrong/Missing"
         },
         {
-          "x": 64,
-          "y": 94
+          "x": "inv16",
+          "y": "Customer Address Wrong/Missing"
         },
         {
-          "x": 96,
-          "y": 360
+          "x": "inv64",
+          "y": "NeedCredit"
         },
         {
-          "x": 266,
-          "y": 3
+          "x": "inv512",
+          "y": "Invoice PDF does not match terms"
         },
         {
-          "x": 115,
-          "y": 88
+          "x": "inv16",
+          "y": "Customer Address Wrong/Missing"
         },
         {
-          "x": 137,
-          "y": 317
+          "x": "inv32",
+          "y": "NeedCredit"
         },
         {
-          "x": 47,
-          "y": 477
+          "x": "inv32",
+          "y": "Invoice PDF does not match submitted Invoice Date, Number and/or Amount"
         },
         {
-          "x": 257,
-          "y": 87
+          "x": "inv1",
+          "y": "Remit To Missing/Wrong"
         },
         {
-          "x": 37,
-          "y": 438
+          "x": "inv1",
+          "y": "Customer Aging Hold"
         },
         {
-          "x": 342,
-          "y": 495
+          "x": "inv2",
+          "y": "Customer Aging Hold"
         },
         {
-          "x": 345,
-          "y": 15
+          "x": "inv2",
+          "y": "Invoice PDF does not match submitted Invoice Date, Number and/or Amount"
         },
         {
-          "x": 139,
-          "y": 280
+          "x": "inv1",
+          "y": "Invoice PDF does not match terms"
         },
         {
-          "x": 163,
-          "y": 71
+          "x": "inv1",
+          "y": "NeedCredit"
         },
         {
-          "x": 222,
-          "y": 472
+          "x": "inv256",
+          "y": "NeedCredit"
         },
         {
-          "x": 322,
-          "y": 471
+          "x": "inv4",
+          "y": "Customer Address Wrong/Missing"
         },
         {
-          "x": 235,
-          "y": 150
+          "x": "inv1",
+          "y": "Customer Address Wrong/Missing"
         },
         {
-          "x": 338,
-          "y": 56
+          "x": "inv32",
+          "y": "Invoice PDF does not match terms"
         },
         {
-          "x": 314,
-          "y": 339
+          "x": "inv1",
+          "y": "NeedCredit"
         },
         {
-          "x": 48,
-          "y": 81
+          "x": "inv8",
+          "y": "Customer Aging Hold"
         },
         {
-          "x": 258,
-          "y": 144
+          "x": "inv32",
+          "y": "Remit To Missing/Wrong"
         },
         {
-          "x": 136,
-          "y": 309
+          "x": "inv4",
+          "y": "Customer Address Wrong/Missing"
         },
         {
-          "x": 154,
-          "y": 152
+          "x": "inv32",
+          "y": "Remit To Missing/Wrong"
         },
         {
-          "x": 32,
-          "y": 214
+          "x": "inv8",
+          "y": "Customer Aging Hold"
         },
         {
-          "x": 84,
-          "y": 289
+          "x": "inv32",
+          "y": "NeedCredit"
         },
         {
-          "x": 120,
-          "y": 386
+          "x": "inv2",
+          "y": "Invoice PDF does not match submitted Invoice Date, Number and/or Amount"
         },
         {
-          "x": 240,
-          "y": 173
+          "x": "inv4",
+          "y": "Remit To Missing/Wrong"
         },
         {
-          "x": 165,
-          "y": 407
+          "x": "inv1",
+          "y": "Invoice PDF does not match terms"
         },
         {
-          "x": 215,
-          "y": 77
+          "x": "inv32",
+          "y": "NeedCredit"
         },
         {
-          "x": 118,
-          "y": 235
+          "x": "inv64",
+          "y": "NeedCredit"
         },
         {
-          "x": 209,
-          "y": 201
+          "x": "inv512",
+          "y": "Remit To Missing/Wrong"
         },
         {
-          "x": 308,
-          "y": 2
+          "x": "inv128",
+          "y": "NeedCredit"
         },
         {
-          "x": 243,
-          "y": 144
+          "x": "inv128",
+          "y": "Remit To Missing/Wrong"
         },
         {
-          "x": 260,
-          "y": 63
+          "x": "inv128",
+          "y": "Invoice PDF does not match terms"
         },
         {
-          "x": 183,
-          "y": 107
+          "x": "inv512",
+          "y": "Invoice PDF does not match terms"
         },
         {
-          "x": 311,
-          "y": 396
+          "x": "inv16",
+          "y": "Remit To Missing/Wrong"
         },
         {
-          "x": 36,
-          "y": 379
+          "x": "inv32",
+          "y": "Invoice PDF does not match terms"
         },
         {
-          "x": 94,
-          "y": 130
+          "x": "inv16",
+          "y": "Customer Aging Hold"
         },
         {
-          "x": 167,
-          "y": 8
+          "x": "inv32",
+          "y": "Customer Address Wrong/Missing"
         },
         {
-          "x": 97,
-          "y": 458
+          "x": "inv4",
+          "y": "Invoice PDF does not match terms"
         },
         {
-          "x": 233,
-          "y": 158
+          "x": "inv512",
+          "y": "Invoice PDF does not match submitted Invoice Date, Number and/or Amount"
         },
         {
-          "x": 64,
-          "y": 232
+          "x": "inv512",
+          "y": "Customer Address Wrong/Missing"
         },
         {
-          "x": 243,
-          "y": 340
+          "x": "inv256",
+          "y": "Invoice PDF does not match submitted Invoice Date, Number and/or Amount"
         },
         {
-          "x": 274,
-          "y": 340
+          "x": "inv4",
+          "y": "Customer Aging Hold"
         },
         {
-          "x": 309,
-          "y": 81
+          "x": "inv4",
+          "y": "NeedCredit"
         },
         {
-          "x": 214,
-          "y": 460
+          "x": "inv8",
+          "y": "Customer Address Wrong/Missing"
         }
       ]
     }
