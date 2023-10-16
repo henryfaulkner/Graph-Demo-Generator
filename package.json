@@ -9,6 +9,7 @@
     "flagged-invoice-count": "npx ts-node src/scripts/flagged-invoice-count",
     "nowaccount-difference": "npx ts-node src/scripts/nowaccount-difference",
     "credit-request-utilization": "npx ts-node src/scripts/credit-request-utilization",
+    "client-capacity-utilization": "npx ts-node src/scripts/client-capacity-utilization",
     "build": "tsc --outDir build"
   },
   "dependencies": {

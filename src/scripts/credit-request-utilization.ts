@@ -37,7 +37,7 @@ for (let i = 0; i < numCustomers; i += 1) {
 // Generated float amount
 for (let i = 0; i < numCustomers; i += 1) {
   const utilized = faker.number.float({ min: 40000, max: 100000 });
-  const unutilized = utilized + faker.number.float({ min: 0, max: 30000 });
+  const unutilized = faker.number.float({ min: 0, max: 30000 });
   const pending = faker.number.float({ min: 0, max: 50000 });
   datasetUtilized.data.push(truncFloat(utilized));
   datasetUnutilized.data.push(truncFloat(unutilized));
