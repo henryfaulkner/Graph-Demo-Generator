@@ -46,7 +46,7 @@ const dataset: ScatterDataset = {
   label,
   data,
 };
-const scatterData: ScatterDataSchema = {
+const scatterSchema: ScatterDataSchema = {
   xTitle: "Invoices",
   yTitle: "Flags",
   xLabels: invList,
@@ -54,4 +54,4 @@ const scatterData: ScatterDataSchema = {
   datasets: [dataset],
 };
 
-pushJsonToFile(`./data/${fileName}.json`, scatterData);
+pushJsonToFile(`./data/${fileName}.json`, scatterSchema);
